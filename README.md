@@ -37,10 +37,10 @@
 
 ```text
 ┌─ profile ─────────────────────────────────────────────┐
-│  Focus    : Homelab · DevOps · 全栈运维 · 自动化        │
-│  Stack    : Linux / Docker / Python / Network / NAS    │
-│  Goal     : 持续工程化日常工作流                          │
-│  Contact  : aiqinghaiwork@163.com                      │
+│  Focus    : Homelab · DevOps · 全栈运维 · 自动化      │
+│  Stack    : Linux / Docker / Python / Network / NAS   │
+│  Goal     : 持续工程化日常工作流                       │
+│  Contact  : aiqinghaiwork@163.com                     │
 └───────────────────────────────────────────────────────┘
 ```
 
