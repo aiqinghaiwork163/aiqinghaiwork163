@@ -6,11 +6,11 @@
 <div align="center">
 
 <!-- Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F766E,100:14B8A6&height=140&section=header&text=%E6%9D%9C%E5%A8%81%20%2F%20Du%20Wei&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=32&desc=Homelab%20%C2%B7%20DevOps%20%C2%B7%20Automation&descAlignY=55&descSize=16&descAlign=50" alt="banner" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F766E,100:14B8A6&height=140&section=header&text=Homelab%20Builder&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=32&desc=DevOps%20%C2%B7%20Docker%20%C2%B7%20Automation&descAlignY=55&descSize=16&descAlign=50" alt="banner" />
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3500&pause=1000&color=0F766E&center=true&vCenter=true&width=720&lines=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%98%AF+%E6%9D%9C%E5%A8%81+%2F+Du+Wei;%E9%A9%B1%E5%8A%A8+Homelab+%C2%B7+Docker+%C2%B7+%E8%87%AA%E5%8A%A8%E5%8C%96;%E7%94%A8%E4%BB%A3%E7%A0%81%E6%8A%8A%E6%97%A5%E5%B8%B8%E8%BF%90%E7%BB%B4%E5%8F%98%E6%88%90%E4%BA%A7%E5%93%81" alt="typing" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3500&pause=1000&color=0F766E&center=true&vCenter=true&width=720&lines=%E9%A9%B1%E5%8A%A8+Homelab+%C2%B7+Docker+%C2%B7+%E8%87%AA%E5%8A%A8%E5%8C%96;%E7%94%A8%E4%BB%A3%E7%A0%81%E6%8A%8A%E6%97%A5%E5%B8%B8%E8%BF%90%E7%BB%B4%E5%8F%98%E6%88%90%E4%BA%A7%E5%93%81;%E7%A8%B3%E5%AE%9A+%C2%B7+%E5%8F%AF%E5%A4%8D%E7%8E%B0+%C2%B7+%E5%8F%AF%E8%A7%82%E6%B5%8B" alt="typing" />
 
 <br/>
 
@@ -36,16 +36,15 @@
 
 ```text
 ┌─ profile ─────────────────────────────────────────────┐
-│  Name     : 杜威 / Du Wei                              │
 │  Focus    : Homelab · DevOps · 全栈运维 · 自动化        │
 │  Stack    : Linux / Docker / Python / Network / NAS    │
-│  Goal     : 2028 计算机考研 · 持续工程化日常工作流        │
+│  Goal     : 持续工程化日常工作流                          │
 │  Contact  : aiqinghaiwork@163.com                      │
 └───────────────────────────────────────────────────────┘
 ```
 
 - 🔭 日常在折腾 **Docker 集群、网盘检索、媒体服务、Agent 自动化**
-- 🌱 持续学习 **Java 后端 / 系统设计 / 计算机基础**（考研向）
+- 🌱 持续学习 **Java 后端 / 系统设计 / 计算机基础**
 - 🛠️ 专长 **MDT/WDS/PE 批量部署、AP/AC 网络、OA/MES/ERP 企业系统**
 - 💡 偏好 **简洁现代** 的工程风格：可维护 > 花哨
 
@@ -195,7 +194,7 @@ flowchart LR
 <td width="25%" align="center">🔨<br/><strong>Homelab</strong><br/><sub>服务编排与版本化回滚</sub></td>
 <td width="25%" align="center">🤖<br/><strong>Agent</strong><br/><sub>编码 / 运维 / 消息通道</sub></td>
 <td width="25%" align="center">📦<br/><strong>网盘检索</strong><br/><sub>资源站体验打磨</sub></td>
-<td width="25%" align="center">📚<br/><strong>考研向</strong><br/><sub>计算机基础与 Java 补强</sub></td>
+<td width="25%" align="center">📚<br/><strong>后端工程</strong><br/><sub>Java 与系统设计补强</sub></td>
 </tr>
 </table>
 
