@@ -1,6 +1,7 @@
 <!--
   GitHub Profile README · aiqinghaiwork163
   简洁现代 · Homelab / 运维 / 自动化
+  Profile 页展示在 github.com/用户名，本地 assets 必须用 raw 绝对路径
 -->
 
 <div align="center">
@@ -51,9 +52,9 @@
 </td>
 <td width="45%" valign="top" align="center">
 
-<img src="./assets/stats.svg" height="170" alt="stats" />
+<img src="https://raw.githubusercontent.com/aiqinghaiwork163/aiqinghaiwork163/main/assets/stats.svg" height="170" alt="stats" />
 
-<img src="./assets/streak.svg" height="170" alt="streak" />
+<img src="https://raw.githubusercontent.com/aiqinghaiwork163/aiqinghaiwork163/main/assets/streak.svg" height="170" alt="streak" />
 
 </td>
 </tr>
@@ -154,19 +155,19 @@ Service Hub 导航、媒体站、库存系统、TG 自动化……
 
 <div align="center">
 
-<img src="./assets/top-langs.svg" height="165" alt="langs" />
+<img src="https://raw.githubusercontent.com/aiqinghaiwork163/aiqinghaiwork163/main/assets/top-langs.svg" height="165" alt="langs" />
 
 <br/>
 
-<img src="./assets/activity-graph.svg" alt="activity" width="100%" />
+<img src="https://raw.githubusercontent.com/aiqinghaiwork163/aiqinghaiwork163/main/assets/activity-graph.svg" alt="activity" width="100%" />
 
 <br/>
 
 <!-- Snake animation -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="./assets/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aiqinghaiwork163/aiqinghaiwork163/main/assets/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aiqinghaiwork163/aiqinghaiwork163/main/assets/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/aiqinghaiwork163/aiqinghaiwork163/main/assets/github-contribution-grid-snake.svg">
 </picture>
 
 </div>
