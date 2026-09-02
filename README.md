@@ -51,9 +51,9 @@
 </td>
 <td width="45%" valign="top" align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=aiqinghaiwork163&show_icons=true&include_all_commits=true&count_private=true&theme=default&hide_border=true&bg_color=FAFAF9&title_color=0F766E&icon_color=0F766E&text_color=334155" height="170" alt="stats" />
+<img src="./assets/stats.svg" height="170" alt="stats" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=aiqinghaiwork163&theme=default&hide_border=true&background=FAFAF9&ring=0F766E&fire=0F766E&currStreakLabel=0F766E" height="170" alt="streak" />
+<img src="./assets/streak.svg" height="170" alt="streak" />
 
 </td>
 </tr>
@@ -154,19 +154,19 @@ Service Hub 导航、媒体站、库存系统、TG 自动化……
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aiqinghaiwork163&layout=compact&theme=default&hide_border=true&bg_color=FAFAF9&title_color=0F766E&text_color=334155" height="165" alt="langs" />
+<img src="./assets/top-langs.svg" height="165" alt="langs" />
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=aiqinghaiwork163&bg_color=fafaf9&color=0f766e&line=14b8a6&point=0f766e&area=true&hide_border=true" alt="activity" width="100%" />
+<img src="./assets/activity-graph.svg" alt="activity" width="100%" />
 
 <br/>
 
 <!-- Snake animation -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aiqinghaiwork163/aiqinghaiwork163/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aiqinghaiwork163/aiqinghaiwork163/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/aiqinghaiwork163/aiqinghaiwork163/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="./assets/github-contribution-grid-snake.svg">
 </picture>
 
 </div>

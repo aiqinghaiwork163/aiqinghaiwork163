@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="120" viewBox="0 0 860 120">
+  <rect width="860" height="120" rx="8" fill="#FAFAF9"/>
+  <text x="430" y="58" text-anchor="middle" fill="#0F766E" font-family="JetBrains Mono, monospace" font-size="14" font-weight="600">GitHub Activity Graph</text>
+  <text x="430" y="82" text-anchor="middle" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="12">合并后请在 Actions 中手动运行 Update Profile Cards</text>
+</svg>
