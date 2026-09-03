@@ -4,7 +4,7 @@
 -->
 
 <p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/aiqinghaiwork163/aiqinghaiwork163/main/assets/hero.jpg" alt="AIQINGHAI — Infrastructure as product" />
+  <img width="100%" src="https://raw.githubusercontent.com/aiqinghaiwork163/aiqinghaiwork163/main/assets/hero.jpg" alt="Homelab — Infrastructure as product" />
 </p>
 
 <p align="center">
