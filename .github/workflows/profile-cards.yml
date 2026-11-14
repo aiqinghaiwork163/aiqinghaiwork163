@@ -18,7 +18,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=FAFAF9&title_color=0F766E&icon_color=0F766E&text_color=334155
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0B0D10&title_color=F3F4F6&icon_color=FF4D1C&text_color=A1A1AA
           path: assets/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -26,7 +26,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&hide_border=true&bg_color=FAFAF9&title_color=0F766E&text_color=334155
+          options: username=${{ github.repository_owner }}&layout=compact&hide_border=true&bg_color=0B0D10&title_color=F3F4F6&text_color=A1A1AA
           path: assets/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -34,13 +34,13 @@ jobs:
         uses: maurodesouza/github-readme-activity-graph-action@v1
         with:
           username: ${{ github.repository_owner }}
-          options: bg_color=fafaf9&color=0f766e&line=14b8a6&point=0f766e&area=true&hide_border=true
+          options: bg_color=0b0d10&color=a1a1aa&line=ff4d1c&point=ff4d1c&area=true&hide_border=true
           output_path: assets/activity-graph.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Fetch streak card
         run: |
-          curl -sL "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&theme=default&hide_border=true&background=FAFAF9&ring=0F766E&fire=0F766E&currStreakLabel=0F766E" \
+          curl -sL "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&theme=dark&hide_border=true&background=0B0D10&ring=FF4D1C&fire=FF4D1C&currStreakLabel=F3F4F6&currStreakNum=F3F4F6&sideLabels=A1A1AA&sideNums=A1A1AA&dates=A1A1AA" \
             -o assets/streak.svg
 
       - name: Generate snake animation
@@ -50,13 +50,19 @@ jobs:
           outputs: |
             assets/github-contribution-grid-snake.svg
             assets/github-contribution-grid-snake-dark.svg?palette=github-dark
-          snake_color: "0F766E"
+          snake_color: "FF4D1C"
           snake_case: lower
 
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/*.svg
+          git add \
+            assets/stats.svg \
+            assets/top-langs.svg \
+            assets/activity-graph.svg \
+            assets/streak.svg \
+            assets/github-contribution-grid-snake.svg \
+            assets/github-contribution-grid-snake-dark.svg
           git commit -m "chore: update profile cards" || exit 0
           git push
